@@ -241,11 +241,16 @@
 @keyframes button13{
     0%{
         left: 10px;
+        top: -10px;
     } 20%{
-        left: calc(100% - 60px); 
-    } 50%{
-        left: calc(100% - 60px);
-        top: 20px;
+        left: calc(100% - 30px); 
+        top: -10px;
+    } 40%{
+        left: calc(100% - 30px);
+        top: 100%;
+        
+        
+        
         
     }
 }
