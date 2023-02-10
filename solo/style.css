@@ -1,0 +1,251 @@
+
+/* Esercizio n.1 */
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition: 2s;
+}
+.ex-1-square:hover {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 2s ;
+}
+.ex-2-square:active {
+    width: 1100px;
+    height: 100px;
+    background: red;
+}
+
+
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 0.6s;
+}
+.ex-3-square:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+}
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 1s;
+}
+.ex-4-square:hover {
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: 1s;
+}
+.ex-5-square:hover {
+    margin: -10px;
+    width: 120px;
+    height: 120px;
+    background: red;
+}
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-6-img, .ex-7-img, .ex-8-img {
+    width: 500px;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+.ex-7-img{
+    transition: 1s;
+}
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.ex-8-img{
+    transition: 3s;
+}
+.ex-8-img:hover{
+    filter: grayscale(50%) sepia(40%);
+    border-radius: 40px;
+
+}
+
+
+
+/* Esercizio n.1 */
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+    transition: 2s;
+}
+.ex-9-img:hover {
+    transform: scale(1.5);
+    border-radius: 15px;
+    filter: sepia(80%);
+}
+
+
+/* Esercizio n.1 */
+.ex-10-icon {
+    font-size: 60px;
+    animation: circlee 1s infinite linear;
+}
+@keyframes circlee{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+
+/* Esercizio n.1 */
+.ex-11-icon{
+    font-size: 60px;
+}
+.ex-11-icon:hover {
+    animation: circleOrario 5s linear;
+}
+@keyframes circleOrario{
+    0%{
+        transform: rotate(-2turn);
+     
+     }90%{
+        transform: rotate(360deg);
+     }
+}
+
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-12-button, .ex-13-button {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 70px;
+    text-transform: uppercase;
+    border: 3px solid #1b3c59;
+    color: #1b3c59;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: buttonTop 1s linear;
+}
+@keyframes buttonTop{
+    0% {
+        left: 10px;
+    }50%{
+        left: calc(100% - 60px);
+
+    }100%{
+        left: 10px;
+    } 
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: button 1s linear;
+}
+@keyframes button{
+    0% {
+        right: 10px;
+    }50%{
+        right: calc(100% - 60px);
+
+    }100%{
+        right: 10px;
+    } 
+}
+
+
+
+
+
+
+
+/* Esercizio n.1 */
+.ex-12-top-white, .ex-13-top-white {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #000000;
+    width: 60px;
+    height: 20px;
+}
+/* Esercizio n.1 */
+.ex-12-bottom-white, .ex-13-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #191919;
+    width: 60px;
+    height: 20px;
+}
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: button13 2s linear;
+}
+@keyframes button13{
+    0%{
+        left: 10px;
+    } 20%{
+        left: calc(100% - 60px); 
+    } 50%{
+        left: calc(100% - 60px);
+        top: 20px;
+        
+    }
+}
